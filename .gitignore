@@ -1,0 +1,26 @@
+# Fusion 360
+*.bak
+*.f3d.lock
+*.f3z.lock
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+.claude/
+*.swp
+*~
+
+# Build / Cache
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+
+# Lokale Notizen
+NOTES.local.md
