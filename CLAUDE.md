@@ -35,7 +35,7 @@ Diese Datei gibt dir den vollständigen Stand des Projekts. Lies sie zuerst, bev
 
 1. **Frontplatte** — 2 mm, **Galaxy-violett PLA**. Buchstaben als **0,2 mm Restwand (1 Layer)** für Backlight-Technik. Test vorab: bei abgeschalteter LED dürfen die Buchstaben nicht sichtbar sein. Falls Galaxy-Filament zu transluzent → 0,4 mm Restwand (2 Layer) oder Multi-Material.
 2. **Diffusor** — weißes Pauspapier, eingelegt. Spalt im Gehäuse: 0,4 mm.
-3. **Lichtgitter** — 15 mm hoch, **weiß matt PLA**, Stegdicke 1,2 mm (6 Layer, blickdicht). Trennt jede der 100 Zellen lichtdicht. Querstege müssen am unteren Rand eine 0,6-mm-Aussparung (Höhe) × 11,2 mm (Breite) für den darunter durchlaufenden Strip haben.
+3. **Lichtgitter** — 15 mm hoch, **weißes PLA** (matt oder glänzend, Hauptsache weiß — entscheidend ist die Reflexion), Stegdicke 1,2 mm (6 Layer, blickdicht). Trennt jede der 100 Zellen lichtdicht. Querstege müssen am unteren Rand eine 0,6-mm-Aussparung (Höhe) × 11,2 mm (Breite) für den darunter durchlaufenden Strip haben.
 4. **LED-Trägerplatte** — 2 mm, **schwarz PLA**. Hat 10 horizontale Rillen 0,4 mm tief × 11 mm breit für die NeoPixel-Strips. Links und rechts je 10 mm **Lötkanal** (offen nach oben, im Verkabelungsrand, kein Gitter darüber).
 5. **Elektronikraum** — 30 mm tief. Platz für ESP32 + optional Slimline-Powerbank (16 mm dick).
 6. **Rückwand** — 2 mm, schwarz. USB-C-Cutout. Wird mit M3-Schrauben in Heat-Set Inserts am Rahmen befestigt.
@@ -123,7 +123,7 @@ User Parameters in Fusion angelegt via CSV-Import.
 - **Lötkanal nach OBEN offen** (im Verkabelungsrand): erlaubt Löten *nach* dem Einkleben der Strips. Kein Service-Cutout durch die Trägerplatte nach hinten.
 - **Strips kleben ZUERST**, dann löten. NICHT umgekehrt.
 - **Quersteg-Aussparung im Gitter:** `stripPassage` (0,6 mm) hoch × `stripWidth + fitTol` (11,2 mm) breit am unteren Steg-Rand. So läuft der Strip an Schneidstellen unter dem Steg durch, oben ist der Steg dicht.
-- **Innen schwarz, Reflexion weiß:** Trägerplatte und Rückwand schwarz (kein Lichtleiten), Gitter weiß matt (Reflexion und Diffusion).
+- **Innen schwarz, Reflexion weiß:** Trägerplatte und Rückwand schwarz (kein Lichtleiten), Gitter weiß (matt oder glänzend egal — wichtig ist nur die weiße Reflexion).
 - **Verschluss Rückwand:** Heat-Set Inserts (entschieden) — NICHT Magnete, nicht Schnappverschluss.
 - **Powerbank:** optional, NICHT primär. Auto-Shutoff vieler Powerbanks bei Strömen <80 mA ist ein bekanntes Problem (LDR-Dimmung nachts).
 

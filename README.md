@@ -24,12 +24,18 @@ Die oberste Reihe ist für Icons reserviert (z.B. Müllerinnerung, Stammtisch-Hi
 
 1. **Frontplatte** (2mm, Galaxy-violett PLA) — Buchstaben als 0,2mm-Dünnstellen (Backlight-Technik)
 2. **Diffusor** — weißes Pauspapier (0,4mm Spalt)
-3. **Lichtgitter** (15mm, weiß matt PLA) — trennt jede LED-Zelle
+3. **Lichtgitter** (15mm, weißes PLA — matt oder glänzend, Hauptsache weiß für die Reflexion) — trennt jede LED-Zelle
 4. **LED-Trägerplatte** (2mm, schwarz PLA) — mit Strip-Rillen und Lötkanälen
 5. **Elektronikraum** (30mm) — ESP32 + optional Powerbank
 6. **Rückwand** (2mm) — mit USB-C-Cutout, verschraubt mit Heat-Set M3 Inserts
 
 Details siehe [`docs/aufbau.md`](docs/aufbau.md).
+
+## Druckdaten
+
+| Teil | Filament | Druckzeit |
+|------|----------|-----------|
+| Lichtgitter | 177 g | 4:30 h |
 
 ## Stückliste
 

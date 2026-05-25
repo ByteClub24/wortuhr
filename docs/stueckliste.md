@@ -23,7 +23,7 @@
 | Teil | Farbe / Eigenschaft |
 |------|---------------------|
 | Frontplatte | Galaxy-violett (dunkel, leicht transluzent) |
-| Lichtgitter | weiß matt |
+| Lichtgitter | weiß (matt oder glänzend, Hauptsache weiß für die Reflexion) |
 | LED-Trägerplatte | schwarz |
 | Rahmen | schwarz oder beliebig |
 | Rückwand | schwarz |
