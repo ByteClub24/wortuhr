@@ -1,30 +1,13 @@
 Name,Einheit,Ausdruck,Wert,Kommentare,Favorit
-ledPitch,mm,16.7 mm,16.70,LED-Abstand,false
-gridCols,,10,10,LED-Spalten,false
-gridRows,,10,10,LED-Reihen,false
-stripWidth,mm,11 mm,11.00,Strip-Breite + Toleranz,false
-stripHeightCut,mm,0.4 mm,0.40,Strip-Hoehe an Schneidstelle,false
-ledHeight,mm,1.6 mm,1.60,LED-Hoehe ueber Strip,false
-ledSize,mm,5.5 mm,5.50,LED-Kantenlaenge,false
-frontThk,mm,2.0 mm,2.00,Frontplatten-Dicke,false
-letterThk,mm,0.2 mm,0.20,Buchstaben-Restwand (1 Layer),false
-diffuserSlot,mm,0.4 mm,0.40,Spalt fuer Pauspapier-Diffusor,false
-gridHeight,mm,15 mm,15.00,Lichtgitter-Hoehe,false
-gridWall,mm,1.2 mm,1.20,Steg-Dicke Gitter,false
-carrierThk,mm,2.0 mm,2.00,LED-Traegerplatten-Dicke,false
-carrierGroove,mm,0.4 mm,0.40,Strip-Rille-Tiefe,false
-elecDepth,mm,30 mm,30.00,Elektronikraum-Tiefe,false
-backThk,mm,2.0 mm,2.00,Rueckwand-Dicke,false
-frameWall,mm,4 mm,4.00,Rahmenwand-Dicke,false
-wireMargin,mm,10 mm,10.00,Verkabelungsrand umlaufend,false
-falzDepth,mm,1.5 mm,1.50,Falz-Tiefe Frontplatte/Rahmen,false
-falzWidth,mm,2.5 mm,2.50,Falz-Breite Frontplatte/Rahmen,false
-fitTol,mm,0.2 mm,0.20,Allgemeine Passungs-Toleranz,false
-insertDia,mm,4.2 mm,4.20,Heat-Set Insert Lochdurchmesser,false
-insertDepth,mm,5 mm,5.00,Heat-Set Insert Lochtiefe,false
-innerSize,mm,ledPitch * gridCols,167.00,Raster-Innenmass,false
-outerSize,mm,innerSize + 2 * wireMargin + 2 * frameWall,195.00,Aussenmass Uhr,false
-totalDepth,mm,frontThk + diffuserSlot + gridHeight + carrierThk + elecDepth + backThk,51.40,Gesamttiefe,false
-stripPassage,mm,stripHeightCut + fitTol,0.60,Aussparung Gitter-Quersteg fuer Strip,false
-gridCellSize,mm,ledPitch - gridWall,15.50,Innere Zellgroesse Gitter,false
-solderClear,mm,5 mm,5.00,"Lötzugang, Pads hängen in der Luft",false
+ledPitch,mm,16.6 mm,16.60,Abstand der LEDs auf dem Stripe,false
+gridWallThk,mm,1.5 mm,1.50,Dicke der Gitterwände,false
+rows,,10,10,Anzahl der Reihen,false
+cols,,10,10,Anzahl der Spalten,false
+gridXSize,mm,( cols * ledPitch ) + gridWallThk,167.50,Breite des gesamten Gitters,false
+gridYSize,mm,( rows * ledPitch ) + gridWallThk,167.50,Höhe des gesamten Gitters,false
+gridDepth,mm,15 mm,15.00,Tiefe des Gritters,false
+ledCutoutSize,mm,9 mm,9.00,Seitenlänge des Quadratischen Cutouts für die LEDs auf dem Bank,false
+solderCutoutSize,mm,5 mm,5.00,Ausschnitte für das Löten der LED-Strips,false
+carrierPlateThk,mm,2 mm,2.00,LED Trägerplatten dicke,false
+ledStripeWidth,mm,5.5 mm,5.50,Breite des LED Strips für die Kleberinne,false
+ledStripeHeight,mm,0.4 mm,0.40,Höhe des LED Strips für die Kleberinne,false

@@ -13,9 +13,9 @@ Vollständig parametrisch über User Parameters. Die wichtigsten Eingangsparamet
 
 | Parameter | Wert | Bedeutung |
 |-----------|------|-----------|
-| `ledPitch` | 16,7 mm | LED-Abstand |
+| `ledPitch` | 16,6 mm | LED-Abstand |
 | `gridCols`, `gridRows` | 10 | Raster |
-| `frameWall` | 4 mm | Rahmenwand-Dicke |
+| `frameWall` | 1,5 mm | Rahmenwand-Dicke |
 | `wireMargin` | 10 mm | Verkabelungsrand |
 | `gridHeight` | 15 mm | Lichtgitter-Höhe |
 | `elecDepth` | 30 mm | Elektronikraum-Tiefe |
