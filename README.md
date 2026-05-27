@@ -36,6 +36,7 @@ Details siehe [`docs/aufbau.md`](docs/aufbau.md).
 | Teil | Filament | Druckzeit |
 |------|----------|-----------|
 | Lichtgitter | 140 g | 3:30 h |
+| Trägerplatte | 60g | 1:30 h |
 
 ## Stückliste
 
